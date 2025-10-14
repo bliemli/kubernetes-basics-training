@@ -1,9 +1,9 @@
 name: Tag image
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types:
+      - closed
 
 env:
   IMAGE_NAME: openshift-labs-bfh
@@ -13,6 +13,7 @@ env:
 
 jobs:
   tag:
+    if: github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main'
     runs-on: ubuntu-latest
     permissions:
       contents: read
