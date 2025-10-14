@@ -35,4 +35,7 @@ jobs:
         run: |
           skopeo copy --preserve-digests \
             docker://${{ env.IMAGE_REGISTRY }}/${{ env.IMAGE_NAME }}:pr-${{ github.event.number }} \
-            docker://${{ env.IMAGE_REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.DATE }} --additional-tag latest
+            docker://${{ env.IMAGE_REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.DATE }}
+          skopeo copy --preserve-digests \
+            docker://${{ env.IMAGE_REGISTRY }}/${{ env.IMAGE_NAME }}:pr-${{ github.event.number }} \
+            docker://${{ env.IMAGE_REGISTRY }}/${{ env.IMAGE_NAME }}:latest
