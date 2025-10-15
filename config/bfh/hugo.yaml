@@ -8,7 +8,7 @@ module:
     extended: true
     min: 0.100.0
   imports:
-    - path: github.com/tim-koko/docsy-acend
+    - path: github.com/acend/docsy-acend
       disable: false
     - path: github.com/acend/docsy-plus
       disable: false
