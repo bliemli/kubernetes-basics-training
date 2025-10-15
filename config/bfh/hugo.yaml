@@ -2,7 +2,7 @@ title: BFH OpenShift labs
 languageCode: en-us
 Languages:
   en:
-    title: BFH OpenShift Basics Training
+    title: BFH OpenShift labs
 module:
   hugoVersion:
     extended: true
