@@ -1,8 +1,16 @@
-title: BFH OpenShift labs
+title: &title BFH OpenShift labs
 languageCode: en-us
 Languages:
   en:
-    title: BFH OpenShift labs
+    menu:
+      main:
+        - name: Setup
+          url: /setup/
+          weight: 1
+        - name: Lab
+          url: /docs/
+          weight: 2
+    title: *title
 module:
   hugoVersion:
     extended: true
@@ -27,3 +35,6 @@ params:
     training-image-url: 'quay.io/acend/example-web-python:bfh'
   github_repo: ""
   github_branch: ""
+  links:
+    developer: []
+    user: []
