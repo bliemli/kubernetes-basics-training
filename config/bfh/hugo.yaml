@@ -2,14 +2,6 @@ title: &title BFH OpenShift labs
 languageCode: en-us
 Languages:
   en:
-    menu:
-      main:
-        - name: Setup
-          url: /setup/
-          weight: 1
-        - name: Lab
-          url: /docs/
-          weight: 2
     title: *title
 module:
   hugoVersion:
