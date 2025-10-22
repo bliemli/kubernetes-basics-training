@@ -31,20 +31,6 @@ Goals of these labs:
 {{% /onlyWhenNot %}}
 {{% onlyWhen openshift %}}
 
-* [OpenShift Docs](https://docs.openshift.com/)
-
-{{% /onlyWhen %}}
-
-
-## Additional Tutorials
-
-{{% onlyWhenNot openshift %}}
-
-* [Official Kubernetes Tutorial](https://kubernetes.io/docs/tutorials/)
-
-{{% /onlyWhenNot %}}
-{{% onlyWhen openshift %}}
-
-* [OpenShift Interactive Learning Portal](https://learn.openshift.com/)
+* [OpenShift Docs](https://docs.redhat.com/en/documentation/openshift_container_platform/4.19)
 
 {{% /onlyWhen %}}
