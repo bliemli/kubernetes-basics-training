@@ -1,4 +1,4 @@
-FROM ghcr.io/peaceiris/hugo:v0.146.4-full AS builder
+FROM docker.io/floryn90/hugo:0.134.2-ext-ubuntu AS builder
 
 ARG TRAINING_HUGO_ENV=default
 
